@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_menu_position_rule_plugins().
+ */
+function menu_position_rolereference_menu_position_rule_plugins() {
+  $plugins['rolereference'] = array(
+      'file' => 'plugins/menu_position.rolereference.inc',
+  );
+  return $plugins;
+}

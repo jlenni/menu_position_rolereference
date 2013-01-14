@@ -1,0 +1,7 @@
+name = Menu position rules role reference
+description = Extending the drupal "menu position rule" module
+core = 7.x
+version = "7.x-1.0-Beta"
+core = "7.x"
+dependencies[] = menu_position
+dependencies[] = rolereference
